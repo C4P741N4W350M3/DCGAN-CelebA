@@ -58,22 +58,12 @@ The GAN produces realistic images after training on the limited dataset of 10,00
     git clone https://github.com/yourusername/gan-image-generation.git
     cd gan-image-generation
     ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Prepare the dataset**:
+    
+2. **Prepare the dataset**:
     - Ensure you have the CelebA dataset (or any other dataset) in a directory named `celeba_gan`.
     - The images should be in the format required by `keras.utils.image_dataset_from_directory`.
 
-4. **Run the training script**:
-    ```bash
-    python train_gan.py
-    ```
-
-5. **Monitor training progress**:
+3. **Monitor training progress**:
     - The script saves generated images at the end of each epoch in the project directory.
     - Generated images are also displayed during training.
 
