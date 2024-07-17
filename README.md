@@ -3,8 +3,10 @@
 This project implements a Generative Adversarial Network (GAN) using Keras and TensorFlow to generate images from a limited dataset of 10,000 images. The GAN consists of a generator and a discriminator trained to produce realistic images from random noise.
 
 
-![Alt Text](![Alt Text](output.gif)
-)
+<div style="text-align: center;">
+  <img src="./images/output.gif" alt="Alt Text" />
+</div>
+
 
 
 ## Table of Contents
