@@ -1,6 +1,6 @@
 # GAN for Image Generation with Limited Dataset
 
-This project implements a Generative Adversarial Network (GAN) using Keras and TensorFlow to generate images from a limited dataset of 10,000 images. The GAN consists of a generator and a discriminator trained to produce realistic images from random noise.
+This project implements a Generative Adversarial Network (GAN) using TensorFlow and PyTorch to generate images from a limited dataset of 10,000 images. The GAN consists of a generator and a discriminator trained to produce realistic images from random noise.
 
 
 ![Alt Text](output.gif)
@@ -19,7 +19,7 @@ This project implements a Generative Adversarial Network (GAN) using Keras and T
 
 ## Overview
 
-This project showcases the capability of GANs to generate realistic images even with a relatively small dataset. By using a dataset of only 10,000 images, we demonstrate that it is possible to achieve significant results in image generation.
+This project showcases the capability of GANs to generate realistic images even with a relatively small dataset. By using a dataset of only 10,000 images, it demonstrate that it is possible to achieve significant results in image generation.
 
 ## Dataset
 
@@ -56,8 +56,8 @@ The GAN produces realistic images after training on the limited dataset of 10,00
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/gan-image-generation.git
-    cd gan-image-generation
+    git clone https://github.com/C4P741N4W350M3/DCGAN-CelebA.git
+    cd DCGAN-CelebA
     ```
     
 2. **Prepare the dataset**:
@@ -70,10 +70,12 @@ The GAN produces realistic images after training on the limited dataset of 10,00
 
 ## Dependencies
 
+- PyTorch
 - TensorFlow
 - Keras
 - NumPy
 - Matplotlib
+
 
 Install the required packages using:
 ```bash
